@@ -1,0 +1,82 @@
+##
+
+size=   
+    global!0%-100%
+    width!0%-100%
+    height!0%-100%
+
+text=
+    "strings text anything"
+    url!from_assets
+
+call=
+    url!example.com
+    func!example_func_from_assets
+
+line=
+    same    
+    offset!0px-100px
+
+icon=
+    icon_from_list
+
+
+##  
+    button(text="LetGOOO Brandon!!!" call=url!печенья.рус/основа)
+    text(text=url!welcome_page_des.txt)
+
+    icon(icon=steam call=url!steamcommunity.com/id/clairoz)
+    line=same
+    icon(icon=github url="github.com/...")
+    line=same
+    icon(icon=youtube call=url!youtube.com/...)
+
+##
+
+assets{
+    background="assets/background.txt"
+    photo="assets/photo_by_album.txt"
+    video="assets/video_by_format.txt"
+    icons="assets/icon_by_format.txt"
+    header="assets/header_nameslist.txt"
+}
+
+style{
+    welcome="css/welcome.css"
+    default="css/default.css"
+    kotiki="css/kotiki.css"
+}
+
+page_build{
+    welcome(
+        [   
+            header=@default
+            style=@welcome
+            background="background_welcome.jpg"
+        ]
+
+        button(text="LetGOOO Brandon!!!" call=url!печенья.рус/основа)
+        text(text=url!welcome_page_des.txt)
+
+        icon(icon=steam call=url!steamcommunity.com/id/clairoz)
+        line=same
+        icon(icon=github url="github.com/...")
+        line=same
+        icon(icon=youtube call=url!youtube.com/...)
+    )
+
+    main(
+        [
+            header=@default
+            style=@default
+            background="background.jpg"
+        ]
+        
+    )
+    
+    portfolio(
+        <style=@default>
+
+    )
+}
+
