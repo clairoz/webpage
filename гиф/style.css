@@ -16,21 +16,6 @@ body{
     margin-bottom: 12px;
 }
 
-.Window2{
-    float: left;
-    background-color: rgb(22, 23, 24);
-    
-    border-radius: 10px;
-    padding: 10px; 
-    
-    width: fit-content;
-    height: fit-content;
-
-    margin: 12px;
-    margin-bottom: 12px;
-    
-}
-
 .Swindow{
     position: center;
     
@@ -41,68 +26,8 @@ body{
     margin-bottom: 12px;
     
 }
-.SameLineWindow{
-    display: inline-block;
-    background-color: rgb(22, 23, 24);
-    
-    border-radius: 10px;
-    padding: 15px; 
-    
-    width: fit-content;
-    height: fit-content;
 
-    margin: 12px;
-    margin-bottom: 12px;
-    
-}
-.Window3{
-    display: inline-block;
-    background-color: rgb(22, 23, 24);
-    
-    border-radius: 10px;
-    padding: 15px; 
-    
-    margin: auto;
-    margin-bottom: 12px;   
-    
-    width: 250px;
-    height: 440px;
-}
-
-.Kostyli{
-    background-color: aqua;
-    
-    position:center;
-    margin: auto;
-    margin-bottom: 50px;
-    width: fit-content;
-    height: 300px;
-}
-
-.Kostyli2{
-    background-color: aqua;
-    
-    position:center;
-    margin: auto;
-    margin-bottom: 50px;
-    width: fit-content;
-    height: fit-content;
-}
-
-
-.Video_Bar{
-    background-color: brown;
-    width: 480px;
-    height: 240px;
-
-}
 /*TEXT__*/
-#log_text{
-    color: white;
-    text-align: left;
-    font-family: verdana;        
-}
-
 h1 {
     color: white;
     text-align: center;
