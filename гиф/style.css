@@ -27,7 +27,14 @@ body{
     
 }
 
+
 /*TEXT__*/
+#log_text{
+    color: white;
+    text-align: left;
+    font-family: verdana;        
+}
+
 h1 {
     color: white;
     text-align: center;
